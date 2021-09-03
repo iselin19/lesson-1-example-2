@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="L]kn=z]e@.SbwvY{+e_C">set</variable><variable id="pSO:L-cI(R3lv|;F1t3K">light</variable></variables><block type="pxt-on-start" id="m47-fWLsZW;=wn)n+s|_" x="20" y="20"/><block type="device_forever" id="Q3/3,FBID,$DT|3,,mZj" x="224" y="81"><statement name="HANDLER"><block type="variables_set" id="qCa2(``;pk0YjdoZ`|xT"><field name="VAR" id="pSO:L-cI(R3lv|;F1t3K">light</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="Vi!?(DnYug)8g1b*grR,"><field name="name">AnalogPin.P0</field></block></value><next><block type="controls_if" id="!e,#F3SaORIl^#:H^Ty."><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="3^oH}w.i_d}0z[@T?jd9"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="41Ed{p^aIxwEN)TPr:/~"><field name="VAR" id="pSO:L-cI(R3lv|;F1t3K">light</field></block></value><value name="B"><shadow type="math_number" id="qlURn-$eT:!|E@$hW1KV"><field name="NUM">400</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="O44Br?chEDgqVk^i},85"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="gg1:n1-hr|$NI@sXTY,["><field name="LEDS">`
+        # # # . . 
+        . # # # . 
+        . . # # . 
+        . # # # . 
+        # # # . .
+        `</field></block></statement></block></next></block></statement></block></xml>
